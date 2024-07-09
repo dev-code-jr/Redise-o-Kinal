@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.contenedor_principal header {
+    background-color: #14243c;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    top: 0;
+}
+
+.contenedor_principal header .container-header {
+    max-width: 1400px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 25px 20px;
+}
+
+.contenedor_principal header .container-header img {
+    width: 200px;
+}
+
+.contenedor_principal header .container-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_principal header .container-header nav ul li a {
+    text-decoration: none;
+    color: snow;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contenedor_principal header .container-header nav ul li a:hover {
+    color: #fb8630;
+}
+
+/*SECTION INICIO*/
+
+.informacion{
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    color: #fcb404;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion .bienvenida {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fcb404;
+}
+
+.informacion h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fb8630;
+}
+
+.informacion span {
+    font-size: 40px;
+    color: #fcb404;
+}
+
+.informacion p {
+    font-size: 15px;
+}
+
+.informacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 25px 20px;
+    border: 2px solid snow;
+    background-color: #fb8630;
+    border-radius: 50px;
+    color: snow;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+.informacion a:hover {
+    background-color: #fcb404;
+    cursor: pointer;
+}
+
+
+/*SECTION PASATIEMPOS*/
+
+.pasatiempos {
+    display: flex;
+    max-width: 1200px;
+    height: 1000px;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+.contenedor_pasatiempos {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+
+.pasatiempos h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #24346c;
+    top: 1115px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.contenedor_pasatiempos img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+.descripcion_img {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+    padding: 20px;
+    background-color: #24346c;
+    border: 3px solid snow;
+    border-radius: 10px;
+    opacity: 0; 
+    transition: opacity 0.0s ease-out;
+}
+
+.contenedor_pasatiempos img:hover{
+    display: block; 
+    width: 650px;
+    opacity: 1;
+}
+
+.contenedor_pasatiempos:hover .descripcion_img {
+    transition: opacity 0.7s ease-in;
+    opacity: 1;
+}
+
+/*
+.pasatiempos  img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+.pasatiempos img:hover {
+    cursor: pointer;
+    width: 650px;
+    opacity: 1;
+}
+*/
+
+/*SECTION LIKE*/   
+.like {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.like .titulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #14243c;
+}
+
+.like_2 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 1200px;
+    height: 500px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+.contenedor .tarjeta {
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px;
+    color: #14243c;
+    overflow: hidden;
+    margin-top: 50px;
+    margin: 50px;
+    text-align: center;
+    transition: all .8s;
+    background: #24346c;
+    opacity: 0.8;
+}
+
+.contenedor .tarjeta:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 0 12px 15px;
+    color: #24346c;
+    opacity: 1;
+}
+
+.contenedor .tarjeta img {
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 5px solid snow;
+}
+
+.contenedor .tarjeta h1 {
+    font-weight: bold;
+    color: #fb8630;    
+}
+
+.contenedor .tarjeta h4 {
+    font-weight: bold;
+    color: #fcb404;
+}
+
+.contenedor .tarjeta p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: snow;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14243c;
+    height: 50px;
+    color: snow;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}

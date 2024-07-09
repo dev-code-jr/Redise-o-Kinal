@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.contenedor_principal header {
+    background-color: #14243c;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    top: 0;
+}
+
+.contenedor_principal header .contenedor_header {
+    max-width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+.contenedor_principal header .contenedor_header img {
+    width: 200px;
+}
+
+.contenedor_principal header .contenedor_header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_principal header .contenedor_header nav ul li a {
+    text-decoration: none;
+    color: snow;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contenedor_principal header .contenedor_header nav ul li a:hover {
+    color: #fb8630;
+}
+
+/*SECTION SOBRE MI*/
+.sobremi {
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    padding: 100px 20px;
+    color: #14243c;
+    display: flex;
+}
+
+.sobre_mi_foto img {
+    padding: 20px;
+    width: 100%;
+    width: 500px;
+    height: 700px;
+    border: 3px solid #14243c;
+    border-radius: 60%;
+}
+
+.sobre_mi {
+    padding: 12px;
+    border: 3px solid #14243c;
+    border-radius: 10px;
+    height: 700px;
+}
+
+.sobremi .sobre_mi {
+    margin: 0 40px;
+}
+
+.sobremi .sobre_mi .titulo_seccion {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #14243c;
+    text-decoration: underline;
+    text-decoration-color: #fb8630;
+    text-decoration-thickness: 8px;
+}
+
+.sobremi .sobre_mi h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    color: #24346c;
+}
+
+.sobremi .sobre_mi h2 span {
+    color: #14243c;
+}
+
+.sobremi .sobre_mi h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #fcb404;
+}
+
+.sobremi .sobre_mi p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #24346c;
+    margin-bottom: 12px;
+}
+
+/*SECTION METAS*/
+.metas {
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.metas .metas_p .tituloMetas {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #14243c;
+    text-decoration: underline;
+    text-decoration-color: #fb8630;
+    text-decoration-thickness: 8px;
+    margin-bottom: 80px;
+}
+
+.metas .metas_p h2 {
+    color: #14243c;
+    margin-bottom: 80px;
+}
+
+.metas ul {
+    list-style-type: '🥇';
+}
+
+.metas ul li {
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*SECTION HABILIDADES*/
+
+.habilidades {
+    max-width: 1200px;
+    height: 100vh;
+    padding: 100px 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.habilidades .titulo {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #14243c;
+    text-decoration: underline;
+    text-decoration-color: #fb8630;
+    text-decoration-thickness: 8px;
+    margin-bottom: 50px;
+}
+
+.habilidades .fila {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.skill {
+    border: 1px solid #24346c;
+}
+
+.habilidades .fila .skill {
+    max-width: 300px;
+    background-color: snow;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.habilidades .fila .skill:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #24346c, -5px -5px 10px #24346c;
+}
+
+.habilidades .fila .skill .icono {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #fcb404;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.habilidades .fila .skill h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #14243c;
+}
+
+.habilidades .fila .skill hr {
+    width: 80%;
+    margin: auto;
+    color: #fb8630;
+    margin-bottom: 25px;
+}
+
+.habilidades .fila .skill p {
+    color: #14243c;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+.multimedia .contenedor-multimedia-main {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    padding: 250px 15px ;
+    color: black;
+}
+
+.multimedia .contenedor-multimedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multimedia .contenedor-multimedia iframe {
+    width: 1000px;
+    height: 500px;
+}
+
+.proyectos {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.proyectos_2 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.proyectos_3 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.proyectos h3 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #14243c;
+    text-decoration: underline;
+    text-decoration-color: #fb8630;
+    text-decoration-thickness: 8px;
+    margin-bottom: 50px;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 1200px;
+    height: 500px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+.contenedor .tarjeta {
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px;
+    color: #14243c;
+    overflow: hidden;
+    margin-top: 50px;
+    margin: 50px;
+    text-align: center;
+    transition: all .8s;
+    background: #24346c;
+    opacity: 0.8;
+}
+
+.contenedor .tarjeta:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 0 12px 15px;
+    color: #24346c;
+    opacity: 1;
+}
+
+.contenedor .tarjeta img {
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 5px solid snow;
+}
+
+.contenedor .tarjeta h1 {
+    font-weight: bold;
+    color: #fb8630;    
+}
+
+.contenedor .tarjeta h4 {
+    font-weight: bold;
+    color: #fcb404;
+}
+
+.contenedor .tarjeta p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: snow;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14243c;
+    height: 50px;
+    color: snow;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}

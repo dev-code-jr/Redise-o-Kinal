@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/biografiaStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Biografía</title>
+</head>
+<body>
+    <section class="header">
+        <div class="contenedor_principal">
+            <header>
+                <div class="contenedor_header">
+                    <a href="/index.html"><img src="/assets/resources/img/logo_transparent.png"></a>
+                    <nav class="nav">
+                        <ul class="links">
+                            <li><a onclick="sobreMi()">Sobre mí</a></li>
+                            <li><a onclick="metas()">Metas</a></li>
+                            <li><a onclick="habilidades()">Habilidades</a></li>
+                            <li><a onclick="multimedia()">Multimedia</a></li>
+                            <li><a onclick="proyectos()">Mis proyectos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <section class="sobremi">
+        <div class="sobre_mi_foto">
+            <img src="/assets/resources/img/Programador.jpg">
+        </div>
+        <div class="sobre_mi">
+            <p class="titulo_seccion">Sobre mí</p>
+            <h2>Mi nombre es: <span>Edwar Chamalé</span></h2>
+            <h3>Programador</h3>
+            <p>Actualmente, me encuentro en mi formación académica en la carrera de Informática en Fundación Kinal. Durante este período de estudio, he estado cultivando y fortaleciendo mis habilidades en el ámbito informático.</p>
+            <p>A mis 18 años, aspiro a convertirme en un desarrollador Full Stack, reconociendo que mi camino de aprendizaje es aún extenso. Sin embargo, estoy comprometido a dedicar el tiempo y esfuerzo necesarios para alcanzar mi meta y seguir avanzando en mi desarrollo profesional en este fascinante campo.
+        </div>
+    </section>
+
+    <section class="metas">
+        <div class="metas_p">
+            <p class="tituloMetas">Mis metas como Programador</p>
+            <h2>Persiste en tu esfuerzo, cada pequeño avance te acerca a la victoria.</h2>
+            <ul>
+                <li>Obtener una certificación relevante</li>
+                <li>Dominar un marco de desarrollo (Framework)</li>
+                <li>Ser capaz de desarrollar aplicaciones desde cero</li>
+                <li>Crear un blog donde pueda ayudar a gente que tiene dudas</li>
+                <li>Participar en entrevistas técnicas simuladas</li>
+                <li>Lograr mantener un equilibrio saludable entre trabajo y vida</li>
+                <li>Establecer una rutina de aprendizaje continuo</li>
+                <li>Desarrollar habilidades de comunicación </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="habilidades">
+        <h3 class="titulo">Mis habilidades</h3>
+        <div class="fila">
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-github"></i></span>
+                <h4>Git Hub</h4>
+                <hr>
+                <p>Manejo de ramas, versiones y comandos de consola</p>
+            </div>
+
+            <div class="skill">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Lógica</h4>
+                <hr>
+                <p>Base solida de los fundamentos de programación</p>
+            </div>
+
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-java"></i></span>
+                <h4>Java</h4>
+                <hr>
+                <p>Capaz de realizar aplicaciones desde 0</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4>HTML5</h4>
+                <hr>
+                <p>Capacidad de realizar el maquetado de una página</p>
+            </div>
+
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-css3-alt"></i></span>
+                <h4>CSS3</h4>
+                <hr>
+                <p>Capaz de darle minimos estilos al html</p>
+            </div>
+
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>JavaScript</h4>
+                <hr>
+                <p>Estudiando el lenguaje, aun no soy capaz de usar el lenguaje</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="multimedia">
+        <div class="contenedor-multimedia-main">
+            <div class="contenedor-multimedia">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/IXWEQHCKR20?si=xxW--9bRDguxl42h" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; 
+                autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="proyectos">
+        <h3>Mis proyectos</h3>
+        <div class="contenedor">
+            <div class="tarjeta">
+                <img src="/assets/resources/img/ProyectoHospital.png">
+                <h1>Proyecto Hospital</h1>
+                <hr>
+                <br>
+                <p>Proyecto realizado en Java Swing. Trata de un hospital el cual contiene diferentes cruds, así como también una vista especial donde estan mis datos como programador. En este proyecto no se utilizo base de datos si no que todo fue hecho con lógica</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/ProyectoRentaVehiculos.png">
+                <h1>Renta de Vehiculos</h1>
+                <hr>
+                <br>
+                <p>Proyecto realizado en Java Swing. Trata de una renta de vehiculos en el cual contiene diferentes cruds. En este proyecto se utilizo una base de datos (MySQL) y se realizaron consultas especificas para traer informacion importante</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/ProyectoTickets.png">
+                <h1>Proyecto de Tickets</h1>
+                <hr>
+                <br>
+                <p>Proyecto realizado en Java Swing. Trata de Tickets de diferentes tipos para cada ticket contiene su crud. En este proyecto se utilizo una base de datos (MySQL) y se realizaron vistas temporales para traer informacion especifica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyectos_2">
+        <div class="contenedor">
+            <div class="tarjeta">
+                <img src="/assets/resources/img/ProyectoFilaColab.png">
+                <h1>Proyecto colaborativo</h1>
+                <hr>
+                <br>
+                <p>Proyecto elaborado en html, css donde fui Scrum en este proyecto me encargue de darle a cada persona, darle indicaciones especificas para trabajar de una buena manera, enseñarle a clonar el repositorio y como hacer sus ramas y como subir sus paginas a github</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/ProyectoFilaColaba.png">
+                <h1>Proyecto colaborativo</h1>
+                <hr>
+                <br>
+                <p>Proyecto elaborado en html, css, donde fui colaborador se me asigno crear una rama y trabajar en esa rama, donde realice una pagina con estilos sobre el tema que se me asigno.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/tonnyskinal.png">
+                <h1>Tonnys Kinal</h1>
+                <hr>
+                <br>
+                <p>Proyecto elaborado en Java Fx, donde se utilizo Scene builder para facilitar la creacion de vistas, tambien se utilizo ireport para generar reportes generales y facturas, le agregue animaciones y se utilizo una base de datos (MySQL) para guardar toda la informacion</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyectos_3">
+        <div class="contenedor">
+            <div class="tarjeta">
+                <img src="/assets/resources/img/rumbotriangular.png">
+                <h1>Rumbo triangular</h1>
+                <hr>
+                <br>
+                <p>Proyecto realizado en Java Fx, donde se utilizo scene builder para facilitar la creacion de vistas, en este proyecto no se utilizo base de datos, el proyecto es capaz de resolver diferentes problemas, como conversion de numeros a binario o octal, calculo de angulos y otros temas</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/sistema.png">
+                <h1>Sistema de venta y carrito</h1>
+                <hr>
+                <br>
+                <p>Proyecto elaborado en Java EE utilizando bootstrap para dar estilos, y glashfish como servidor, se utilizo una base de datos (MySQL) para guardar los datos de los diferentes cruds. Tambien se elaboro un carrito de compras, el cual fue elaborado a partir de unas consultas para el manejo de stock y emision de facturas a partir de un JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>© Edwar Chamalé - Kinal 2024</footer>
+
+    <script src="/assets/scripts/biografiaScript.js"></script>
+</body>
+</html>
